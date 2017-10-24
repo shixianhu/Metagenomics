@@ -108,7 +108,7 @@ for sample in *.bam
 
   echo "echo UDUes finished" >> ./$i.QC_to_Taxa.sh
   
-  echo "echo sbatch ./$i.Function.sh" >> ./$i.QC_to_Taxa.sh
+  echo "sbatch ./$i.Function.sh" >> ./$i.QC_to_Taxa.sh
   
 
 ###################################################################################################################################
@@ -147,8 +147,4 @@ for sample in *.bam
   echo "echo humman2 finished" >> ./$i.Function.sh
 
 done
-
-
-
-
 
