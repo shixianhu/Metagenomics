@@ -1,5 +1,7 @@
 #!/usr/bin/Rscript
 
+# this is to merge tsv/txt files according to first column Note : merge(all=T)
+
 library(stringr)
 
 gene_families=list.files("./", pattern = "*.tsv")
