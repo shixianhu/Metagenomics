@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# this is for checking if there are final results from metagemomics_pipeline.sh (2 .sh scripts)
+# just to re-write the out_file PATH every time when using it
+
 echo -e "sample_name \t out1_file \t out1_file_status \t out2_file \t out2_file_status" > check_out.txt
 
 dir=$(ls -l /groups/umcg-tifn/tmp03/LLD2/good/SN0131490 | grep .bam |awk '{print $9}')
