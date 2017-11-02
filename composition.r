@@ -16,8 +16,6 @@ library('stringr')
 inputDir=args[1]
 outputDir=args[2]
 
-
-
 input=read.csv(file = inputDir, header=T,sep = '\t')
 
 #this line depends
@@ -34,7 +32,6 @@ for(i in 2:n){
   if(check_row==7){
     write.table(input[i,],file = outputDir, append = T, col.names = F, sep = ",", row.names = F)
   }
-  
 }
 
 #open the output from above
