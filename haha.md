@@ -3,7 +3,7 @@ fdvadfffffffff
 ---
 fdvadfvad
 
-"""
+...
 
 
 #!/bin/bash
@@ -25,13 +25,21 @@ module load Python/3.4.1-foss-2015b
 
 export 
 
-"""
+...
+
 
 PATH=$PATH:~/.local/bin
 
 mkdir -p /groups/umcg-weersma/tmp03/husx/WES/rawdata/fastq/LLDeep_1375
 
+
+
+```
+
 java -jar ${EBROOTPICARD}/picard.jar SamToFastq I=LLDeep_1375.bam F=../fastq/LLDeep_1375/LLDeep_1375.fastq1 F2=../fastq/LLDeep_1375/LLDeep_1375.fastq2
 
 gzip ../fastq/LLDeep_1375/LLDeep_1375.fastq1
 gzip ../fastq/LLDeep_1375/LLDeep_1375.fastq2
+
+
+```
