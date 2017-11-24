@@ -3,7 +3,7 @@ fdvadfffffffff
 ---
 fdvadfvad
 
-'''
+"""
 
 
 #!/bin/bash
@@ -25,7 +25,7 @@ module load Python/3.4.1-foss-2015b
 
 export 
 
-'''
+"""
 
 PATH=$PATH:~/.local/bin
 
